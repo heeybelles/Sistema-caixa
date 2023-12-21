@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+background: #36D1DC; 
+background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  
+background: linear-gradient(to right, #5B86E5, #36D1DC); 
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    color:white;
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+    margin-top:90px;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    }
+
+fieldset{
+    background-color: aliceblue;
+    width: 310px;
+    height: 360px;
+    border-radius: 8px;
+    border:none;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+    
+}
+input {
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 28px;
+    width: 226px;
+    border:none;
+    outline: none;;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    
+}
+.btnGerar{
+background-color: #6889d1;
+color:white;
+font-size: 17px;
+cursor:pointer;
+
+}
